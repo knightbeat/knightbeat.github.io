@@ -28,6 +28,18 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+@font-face {
+    font-family: 'CustomFont';
+    src: url('https://github.com/knightbeat/knightbeat.github.io/blob/main/fonts/fontname.woff2') format('woff2'),
+         url('hhttps://github.com/knightbeat/knightbeat.github.io/blob/main/fonts/fontname.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'CustomFont', sans-serif;
+}
+
 body {
 	line-height: 1;
 }
@@ -51,3 +63,4 @@ table {
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
+
