@@ -28,16 +28,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-@font-face {
-    font-family: 'Grenze';
-    src: url('https://github.com/knightbeat/knightbeat.github.io/blob/main/fonts/Grenze-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-    font-family: 'CustomFont', sans-serif;
-}
 
 body {
 	line-height: 1;
