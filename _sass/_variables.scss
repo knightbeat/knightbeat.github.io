@@ -16,7 +16,7 @@ $white: #fff;
 
 @font-face {
   font-family: 'Grenze';
-  src: url('{{ "/fonts/Grenze-Regular.woff2" | relative_url }}') format('woff2');
+  src: url('{{ "/../fonts/Grenze-Regular.woff2" | relative_url }}') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
